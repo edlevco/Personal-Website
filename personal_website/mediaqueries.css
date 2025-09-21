@@ -1,0 +1,110 @@
+/* @media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+} */
+
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    #experience, .experience-details-container {
+       margin-top: 2rem; 
+    }
+
+    #profile, .section-container {
+        display: block;
+
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        display: block;
+        width: 275px;
+        height: 275px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-pic, .profile_image {
+        display: block;
+        margin: 2rem auto;  
+    }
+
+
+    .about-container {
+        margin-top: 0;
+    }
+
+        /* Constrain text width + center */
+    .section_text {
+        max-width: 70ch;      /* readable line length */
+        margin: 0 auto;       /* center the text block */
+        padding: 0 1rem;      /* side padding */
+    }
+
+    /* About containers: spacing and wrap */
+    .about-container {
+        display: block;
+        gap: 2rem;
+        margin: 1rem 0;     /* more vertical margin */
+        flex-wrap: wrap;      /* ensures wrap on medium screens too */
+        justify-content: center;
+    }
+
+    /* Bubble cards spacing */
+    .details-container {
+        margin: 1rem;         /* NEW: space around each bubble */
+        padding: 2rem;        /* a bit more padding inside */
+        text-align: center;
+    }
+
+    #about {
+        height: auto
+    }
+
+    /* .projects-text {
+        position: absolute;
+        bottom: 2rem;
+    } */
+
+}
+
+/* @media screen and (max-width: 768px) {
+    .projects-text {
+        bottom: 0;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .projects-text {
+        bottom: 5%;
+    }
+  } */
+
+
+
+
